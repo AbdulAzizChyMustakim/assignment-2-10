@@ -170,12 +170,21 @@ nav h3{
     color: white;
   
 }
+/* banner end */
+/* cng habit start */
+main{
+    background-color: black;
+}
+.habit{
+    text-align: center;
+    color: white;
+   
+}
 
 
 
 
-
-
+/* cng habit end */
 
 
 
@@ -244,4 +253,6 @@ nav h3{
 .card-2 p{
     font-size: 12px;
 }
+/* banner end */
+/* cng habit start */
 }
