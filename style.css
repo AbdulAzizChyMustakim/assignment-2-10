@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+*{
+    margin: 0px;
+    padding: 0px;
+  
+
+                                                
+}
+body{
+    font-family: "Inter", sans-serif;
+
+                                                
+}
+/* navbar start */
+header{
+ 
+    background: linear-gradient(to bottom, #000000, #434343, #000000);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 420px;
+    color: white;
+    border: 1px solid #dcd6d61a ;
+    border-radius: 50px;
+    padding: 3px 5px 3px 5px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+nav h3{
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    cursor: pointer;
+}
+.span{
+    background-color: #E6533C;
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ham-burger{
+    color: white;
+    display: none;
+}
+/* navbar end */
+/* banner start */
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px 40px 80px;
+    gap: 370px;
+   
+  
+}
+
+.banner-img{
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+}
+.banner-txt h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 800;
+}
+.banner-span{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+}
+.banner-txt p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+    margin-top: 20px;
+}
+.btn-1{
+    padding: 15px 30px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-2{
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.card-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 415px;
+    left: 0px;
+ 
+}
+.red-ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+}
+.card-1 h2{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+.card-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.card-2{
+    width: 160px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 130px;
+    right: 0px;
+}
+.card-2 h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+.card-2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+.design{
+    color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Area */
+
+@media screen and (max-width: 576px) {
+    /* navbar start */
+    nav{
+      padding: 30px 15px;
+
+    }
+    nav h3{
+        font-size: 25px;
+    }
+    .menu-list{
+        display: none;
+    }
+    .ham-burger{
+        display: block;
+        font-size: 20px;
+    }
+    /* navbar end */
+  /* banner start */
+  #hero{
+    display: block;
+    padding: 10px;
+  }
+
+  .banner-txt h1{
+    font-size: 35px;
+  }
+  .banner-txt p{
+    font-size: 14px;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-1{
+    width: 140px;
+    height: 40px;
+    padding: 0px;
+    font-size: 14px;
+  }
+  .btn-2{
+    width: 140px;
+    height: 40px;
+    padding: 0px;
+    font-size: 14px;
+  }
+  .card-1{
+    top: 250px;
+    left: 40px;
+    
+}
+.card-1 p{
+    font-size: 12px;
+}
+.card-2{
+    width: 120px;
+    top: 40px;
+}
+.card-2 h2{
+    font-size: 25px;
+}
+.card-2 p{
+    font-size: 12px;
+}
+}
