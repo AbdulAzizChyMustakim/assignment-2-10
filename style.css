@@ -174,6 +174,7 @@ nav h3{
 /* cng habit start */
 main{
     background-color: black;
+    padding-bottom: 50px;
 }
 .habit{
     text-align: center;
@@ -346,6 +347,7 @@ background: url(4);
     margin: auto;
     padding: 20px;
     width: 65% ;
+    
    
     
 }
@@ -412,8 +414,75 @@ background: url(4);
     height: 270px;
 }
 /* meet our team part end */
+/* footer */
+footer{
+    background-color: rgb(34, 34, 34);
+}
+.footer-txt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px;
+    gap: 70px;
 
+}
+.txt-1{
 
+}
+.txt-1 h1{
+    font-size: 65px;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.txt-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.txt-2{
+
+}
+.txt-2 h4{
+    font-size: 20px;
+font-weight: 700;
+color: white;
+}
+.txt-2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.txt-3 h4{
+    font-size: 20px;
+font-weight: 700;
+color: white;
+}
+.txt-3 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.line{
+    width: 75%;
+    border: 1px solid rgb(185, 185, 185);
+    margin: auto;
+    margin-bottom: 30px;
+    opacity: 0.1;
+    
+}
+.copy p{ 
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align-last: center;
+    padding-bottom: 30px;
+}
 /* Responsive Area */
 
 @media screen and (max-width: 576px) {
@@ -532,5 +601,24 @@ background: url(4);
         gap: 20px;
     }
     /* meet our team part end */
-
+ .footer-txt{
+    display: block;
+    padding: 50px;
+    
+ }
+ .txt-1{
+    margin-bottom: 30px ;
+ }
+ .txt-2{
+    margin-bottom: 30px ;
+ }
+ .txt-2 h4{
+    margin-bottom: 10px;
+ }
+ .txt-3 h4{
+    margin-bottom: 10px;
+ }
+ .copy p{
+    font-size: 15px;
+ }
 }
